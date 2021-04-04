@@ -84,5 +84,6 @@ class Game:
             self.tk.update()
             time.sleep(0.01)
 
+
 g = Game()
 g.mainloop()
