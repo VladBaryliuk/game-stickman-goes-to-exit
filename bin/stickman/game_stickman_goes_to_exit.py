@@ -46,7 +46,6 @@ def collided_top(co1, co2):
             return True
     return False
 
-
 def collided_bottom(y, co1, co2):
     if within_x(co1, co2):
         y_calc = co1.y2 + y
