@@ -30,13 +30,11 @@ def within_y(co1, co2):
     else:
         return False
 
-
 def collided_left(co1, co2):
     if within_y(co1, co2):
         if co1.x1 <= co2.x2 and co1.x1 >= co2.x1:
             return True
     return False
-
 
 def collided_right(co1, co2):
     if within_y(co1, co2):
