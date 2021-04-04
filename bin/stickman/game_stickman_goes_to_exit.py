@@ -53,7 +53,6 @@ def collided_bottom(y, co1, co2):
             return True
     return False
 
-
 class Game:
     def __init__(self):
         self.tk = Tk()
