@@ -18,7 +18,6 @@ def within_x(co1, co2):
     else:
         return False
 
-
 def within_y(co1, co2):
     if (co1.y1 > co2.y1 and co1.y1 < co2.y2) \
             or (co1.y2 > co2.y1 and co1.y2 < co2.y2) \
