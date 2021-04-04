@@ -2,7 +2,6 @@ from tkinter import *
 import random
 import time
 
-
 class Coords:
     def __init__(self, x1=0, y1=0, x2=0, y2=0):
         self.x1 = x1
